@@ -1,0 +1,31 @@
+{
+  "textures": {
+    "0": "servermod:item/copper_coin",
+    "particle": "servermod:item/copper_coin"
+  },
+  "elements": [
+    {
+      "from": [7, 5, 7],
+      "to": [11, 6, 10],
+      "rotation": {"angle": 0, "axis": "y", "origin": [7, 5, 7]},
+      "faces": {
+        "north": {"uv": [4, 0, 8, 1], "texture": "#0"},
+        "east": {"uv": [4, 2, 7, 3], "texture": "#0"},
+        "south": {"uv": [4, 1, 8, 2], "texture": "#0"},
+        "west": {"uv": [4, 3, 7, 4], "texture": "#0"},
+        "up": {"uv": [4, 3, 0, 0], "texture": "#0"},
+        "down": {"uv": [4, 3, 0, 6], "texture": "#0"}
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {"rotation": [-180, 90, 0], "translation": [-0.5, -2.25, 0]},
+    "thirdperson_lefthand": {"rotation": [-180, 90, 0], "translation": [-0.5, -2.25, 0]},
+    "firstperson_righthand": {"rotation": [-180, 91, 0], "translation": [0, -1.75, 1.5]},
+    "firstperson_lefthand": {"rotation": [-180, 91, 0], "translation": [0, -1.75, 1.5]},
+    "ground": {"rotation": [-90, 0, 0], "translation": [-1, -0.5, -1]},
+    "gui": {"rotation": [90, 0, 0], "translation": [-4, 1.75, 0], "scale": [4, 4, 4]},
+    "fixed": {"rotation": [90, 0, 0], "translation": [0, 0, 2.75]},
+    "on_shelf": {"rotation": [90, -180, -180], "translation": [80, -80, 80], "scale": [4, 4, 4]}
+  }
+}
