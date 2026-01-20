@@ -1,4 +1,6 @@
 {
   "item.servermod.copper_coin": "Copper Coin",
-  "creativetab.servermod": "Server Mod"
+  "block.servermod.tmt_block": "TMT Block",
+  "creativetab.servermod": "Server Mod",
+  "tooltip.servermod.tmt_block.desc": "Right-click to open the website for TMT"
 }

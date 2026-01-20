@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "servermod:block/tmt_block" }
+  }
+}

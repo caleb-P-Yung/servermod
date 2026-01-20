@@ -1,5 +1,6 @@
 package com.caleb.servermod;
 
+import com.caleb.servermod.block.ModBlocks;
 import com.caleb.servermod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -35,6 +36,7 @@ public class Servermod
         ModItems.ITEMS.register(modEventBus);
         ModItems.BLOCKS.register(modEventBus);
         ModItems.CREATIVE_MODE_TABS.register(modEventBus);
+        ModBlocks.register(modEventBus);
         
 
         // Register ourselves for server and other game events we are interested in
